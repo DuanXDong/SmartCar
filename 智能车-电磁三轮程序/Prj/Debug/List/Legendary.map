@@ -1,0 +1,672 @@
+###############################################################################
+#
+# IAR ELF Linker V8.11.1.13263/W32 for ARM                20/Jul/2018  21:30:47
+# Copyright 2007-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Exe\Legendary.out
+#    Map file     =  
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\List\Legendary.map
+#    Command line =  
+#        -f C:\Users\10542\AppData\Local\Temp\EWE95E.tmp
+#        (D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\control.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\dianci.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\Double_Motor.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\Init.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_adc.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_ftm.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_gpio.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_PIT.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_port.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_SysTick.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_uart.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\KEA_wdog.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\main.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\Measurement_speed.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\misc.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\MKEA128_conf.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\MKEA128_it.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\MPU6050.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\My_I2C.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\PID.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\startup_SKEAZ1284.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\system_SKEAZ1284.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_ASCII.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_computer.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_key.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_key_event.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_LCD.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_LCD_CH.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_LCD_ST7735R.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_LCD_ST7735S.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_LED.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_NRF24L0.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_NRF24L0_MSG.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_TSL1401.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\VCAN_UI_VAR.o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj\vectors.o
+#        -o
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Exe\Legendary.out
+#        --map
+#        D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\List\Legendary.map
+#        --config
+#        "D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\config
+#        files\vcan_ROM_KEA128.icf" --semihosting --entry __iar_program_start
+#        --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00004000 { ro section .intvec };
+"A1":  place at 0x000040c0 { ro section .noinit };
+"P1":  place in [from 0x00004000 to 0x00020000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1ffff000 to 0x20003000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+initialize manually with packing = copy, complex ranges { section .data };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A0":                                         0xc0
+  .intvec              const    0x00004000    0xc0  vectors.o [1]
+                              - 0x000040c0    0xc0
+
+"A1":                                          0x8
+  .noinit              ro code  0x000040c0     0x8  startup_SKEAZ1284.o [1]
+                              - 0x000040c8     0x8
+
+"P1", part 1 of 2:                          0x718c
+  .text                ro code  0x000040c8  0x375c  VCAN_LCD_ST7735S.o [1]
+  .text                ro code  0x00007824   0x208  KEA_gpio.o [1]
+  .text                ro code  0x00007a2c    0x6c  misc.o [1]
+  .text                ro code  0x00007a98    0x1c  MKEA128_conf.o [1]
+  .text                ro code  0x00007ab4    0xe0  I32DivModFast.o [5]
+  .text                ro code  0x00007b94    0x70  VCAN_LED.o [1]
+  .text                ro code  0x00007c04     0x2  IntDivZer.o [5]
+  .rodata              const    0x00007c06     0x2  VCAN_computer.o [1]
+  .text                ro code  0x00007c08   0x834  dianci.o [1]
+  .text                ro code  0x0000843c    0xa4  KEA_adc.o [1]
+  .text                ro code  0x000084e0    0x36  IxxToFlt.o [4]
+  .rodata              const    0x00008516     0x2  VCAN_computer.o [1]
+  .text                ro code  0x00008518    0x34  IxxToDbl.o [4]
+  .text                ro code  0x0000854c    0xc0  sqrt.o [4]
+  .text                ro code  0x0000860c   0x1b4  DblAddSub.o [4]
+  .text                ro code  0x000087c0    0x62  DblToFlt.o [4]
+  .text                ro code  0x00008822    0xb0  FltMul.o [4]
+  .text                ro code  0x000088d2    0xaa  FltDiv.o [4]
+  .text                ro code  0x0000897c    0x26  FltCmpLe.o [4]
+  .text                ro code  0x000089a4    0x28  FltCmpGe.o [4]
+  .text                ro code  0x000089cc    0x32  FltToDbl.o [4]
+  .text                ro code  0x000089fe   0x184  DblMul.o [4]
+  .text                ro code  0x00008b84   0x5b6  VCAN_LCD.o [1]
+  .text                ro code  0x0000913c   0x404  KEA_ftm.o [1]
+  .text                ro code  0x00009540    0x3a  FltToS32.o [4]
+  .text                ro code  0x0000957a    0xc2  DblDiv.o [4]
+  .text                ro code  0x0000963c    0x26  FltToU32.o [4]
+  .text                ro code  0x00009664   0x324  main.o [1]
+  .text                ro code  0x00009988   0x20c  Init.o [1]
+  .text                ro code  0x00009b94   0x238  PID.o [1]
+  .text                ro code  0x00009dcc    0x9c  VCAN_key.o [1]
+  .text                ro code  0x00009e68   0x270  My_I2C.o [1]
+  .text                ro code  0x0000a0d8   0x2de  MPU6050.o [1]
+  .text                ro code  0x0000a3b8   0x148  Double_Motor.o [1]
+  .text                ro code  0x0000a500    0x70  KEA_port.o [1]
+  .text                ro code  0x0000a570    0x88  KEA_PIT.o [1]
+  .text                ro code  0x0000a5f8    0xd0  KEA_SysTick.o [1]
+  .text                ro code  0x0000a6c8    0xac  Measurement_speed.o [1]
+  .text                ro code  0x0000a774   0x120  FltAddSub.o [4]
+  .text                ro code  0x0000a894    0x34  ABImemset.o [5]
+  .text                ro code  0x0000a8c8    0xa8  I64DivMod.o [5]
+  .text                ro code  0x0000a970     0x2  I64DivZer.o [5]
+  .text                ro code  0x0000a972   0x158  vectors.o [1]
+  .text                ro code  0x0000aacc   0x140  control.o [1]
+  .text                ro code  0x0000ac0c    0x48  VCAN_computer.o [1]
+  .text                ro code  0x0000ac54   0x138  KEA_uart.o [1]
+  .text                ro code  0x0000ad8c   0x13c  system_SKEAZ1284.o [1]
+  .text                ro code  0x0000aec8    0x54  KEA_wdog.o [1]
+  .rodata              const    0x0000af1c    0x54  VCAN_LCD_ST7735S.o [1]
+  .rodata              const    0x0000af70    0x4c  KEA_gpio.o [1]
+  .rodata              const    0x0000afbc    0x4c  KEA_SysTick.o [1]
+  .rodata              const    0x0000b008    0x48  KEA_adc.o [1]
+  .rodata              const    0x0000b050    0x48  KEA_ftm.o [1]
+  .rodata              const    0x0000b098    0x48  KEA_PIT.o [1]
+  .rodata              const    0x0000b0e0    0x48  misc.o [1]
+  .text                ro code  0x0000b128    0x40  zero_init3.o [5]
+  .data_init                    0x0000b168    0x3c  <Block>
+    Initializer bytes  const    0x0000b168    0x3c  <for .data-1>
+  .text                ro code  0x0000b1a4    0x28  data_init.o [5]
+  .iar.init_table      const    0x0000b1cc    0x10  - Linker created -
+  .text                ro code  0x0000b1dc    0x1a  cmain.o [5]
+  .text                ro code  0x0000b1f6     0x4  low_level_init.o [3]
+  .text                ro code  0x0000b1fa     0x8  exit.o [3]
+  .text                ro code  0x0000b204     0xa  cexit.o [5]
+  .text                ro code  0x0000b210    0x14  exit.o [6]
+  .rodata              const    0x0000b224     0xc  KEA_port.o [1]
+  .text                ro code  0x0000b230     0xc  cstartup_M.o [5]
+  .rodata              const    0x0000b23c     0x8  Init.o [1]
+  .rodata              const    0x0000b244     0x8  Init.o [1]
+  .rodata              const    0x0000b24c     0x4  VCAN_LCD.o [1]
+  .rodata              const    0x0000b250     0x4  VCAN_LCD.o [1]
+  .rodata              const    0x0000b254     0x0  zero_init3.o [5]
+                              - 0x0000b254  0x718c
+
+"P1", part 2 of 2:                             0x0
+  CodeRelocate                  0x0000b254     0x0  <Block>
+
+"P2", part 1 of 3:                            0x3c
+  .data                         0x1ffff000    0x3c  <Block>
+    .data-1                     0x1ffff000    0x3a  <Init block>
+      .data            inited   0x1ffff000     0x8  control.o [1]
+      .data            inited   0x1ffff008    0x14  dianci.o [1]
+      .data            inited   0x1ffff01c     0xc  KEA_gpio.o [1]
+      .data            inited   0x1ffff028     0x8  VCAN_key.o [1]
+      .data            inited   0x1ffff030     0x4  VCAN_LED.o [1]
+      .data            inited   0x1ffff034     0x2  dianci.o [1]
+      .data            inited   0x1ffff036     0x2  VCAN_LCD_ST7735S.o [1]
+      .data            inited   0x1ffff038     0x2  VCAN_LCD_ST7735S.o [1]
+                              - 0x1ffff03c    0x3c
+
+"P2", part 2 of 3:                           0x204
+  .bss                          0x1ffff03c   0x204  <Block>
+    .bss               zero     0x1ffff03c     0x4  control.o [1]
+    .bss               zero     0x1ffff040     0x4  control.o [1]
+    .bss               zero     0x1ffff044     0x4  control.o [1]
+    .bss               zero     0x1ffff048     0x4  control.o [1]
+    .bss               zero     0x1ffff04c     0x4  dianci.o [1]
+    .bss               zero     0x1ffff050     0x4  dianci.o [1]
+    .bss               zero     0x1ffff054     0x4  dianci.o [1]
+    .bss               zero     0x1ffff058     0x4  dianci.o [1]
+    .bss               zero     0x1ffff05c     0x4  dianci.o [1]
+    .bss               zero     0x1ffff060     0x4  dianci.o [1]
+    .bss               zero     0x1ffff064     0x4  dianci.o [1]
+    .bss               zero     0x1ffff068     0x4  dianci.o [1]
+    .bss               zero     0x1ffff06c     0x4  dianci.o [1]
+    .bss               zero     0x1ffff070     0x4  dianci.o [1]
+    .bss               zero     0x1ffff074    0x14  dianci.o [1]
+    .bss               zero     0x1ffff088    0x14  dianci.o [1]
+    .bss               zero     0x1ffff09c    0x14  dianci.o [1]
+    .bss               zero     0x1ffff0b0    0x14  dianci.o [1]
+    .bss               zero     0x1ffff0c4    0x14  dianci.o [1]
+    .bss               zero     0x1ffff0d8     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0dc     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0e0     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0e4     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0e8     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0ec     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0f0     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0f4     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0f8     0x4  dianci.o [1]
+    .bss               zero     0x1ffff0fc     0x4  dianci.o [1]
+    .bss               zero     0x1ffff100     0x4  dianci.o [1]
+    .bss               zero     0x1ffff104     0x4  dianci.o [1]
+    .bss               zero     0x1ffff108    0x28  dianci.o [1]
+    .bss               zero     0x1ffff130     0xc  KEA_ftm.o [1]
+    .bss               zero     0x1ffff13c    0x18  main.o [1]
+    .bss               zero     0x1ffff154     0x4  main.o [1]
+    .bss               zero     0x1ffff158     0x4  main.o [1]
+    .bss               zero     0x1ffff15c     0x4  main.o [1]
+    .bss               zero     0x1ffff160     0x4  main.o [1]
+    .bss               zero     0x1ffff164     0xc  MPU6050.o [1]
+    .bss               zero     0x1ffff170     0xc  MPU6050.o [1]
+    .bss               zero     0x1ffff17c     0x8  MPU6050.o [1]
+    .bss               zero     0x1ffff184     0x8  MPU6050.o [1]
+    .bss               zero     0x1ffff18c     0x8  MPU6050.o [1]
+    .bss               zero     0x1ffff194     0x8  MPU6050.o [1]
+    .bss               zero     0x1ffff19c     0xc  MPU6050.o [1]
+    .bss               zero     0x1ffff1a8    0x20  PID.o [1]
+    .bss               zero     0x1ffff1c8    0x20  PID.o [1]
+    .bss               zero     0x1ffff1e8    0x20  PID.o [1]
+    .bss               zero     0x1ffff208    0x20  PID.o [1]
+    .bss               zero     0x1ffff228     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff22c     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff230     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff234     0x4  system_SKEAZ1284.o [1]
+    .bss               zero     0x1ffff238     0x2  Measurement_speed.o [1]
+    .bss               zero     0x1ffff23a     0x2  Measurement_speed.o [1]
+    .bss               zero     0x1ffff23c     0x1  main.o [1]
+    .bss               zero     0x1ffff23d     0x1  MPU6050.o [1]
+    .bss               zero     0x1ffff23e     0x1  VCAN_LCD_ST7735S.o [1]
+                              - 0x1ffff240   0x204
+
+"P2", part 3 of 3:                             0x0
+  CodeRelocateRam               0x1ffff240     0x0  <Block>
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x203:
+          0x1ffff03c  0x203
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj: [1]
+    Double_Motor.o           328
+    Init.o                   524       16
+    KEA_PIT.o                136       72
+    KEA_SysTick.o            208       76
+    KEA_adc.o                164       72
+    KEA_ftm.o              1 028       72       12
+    KEA_gpio.o               520       88       12
+    KEA_port.o               112       12
+    KEA_uart.o               312
+    KEA_wdog.o                84
+    MKEA128_conf.o            28
+    MPU6050.o                734                69
+    Measurement_speed.o      172                 4
+    My_I2C.o                 624
+    PID.o                    568               128
+    VCAN_LCD.o             1 462        8
+    VCAN_LCD_ST7735S.o    14 172       88        5
+    VCAN_LED.o               112        4        4
+    VCAN_computer.o           72        4
+    VCAN_key.o               156        8        8
+    control.o                320        8       24
+    dianci.o               2 100       22      250
+    main.o                   804                41
+    misc.o                   108       72
+    startup_SKEAZ1284.o        8
+    system_SKEAZ1284.o       316                16
+    vectors.o                344      192
+    ----------------------------------------------
+    Total:                25 516      814      573
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+m6M_tl.a: [4]
+    DblAddSub.o              436
+    DblDiv.o                 194
+    DblMul.o                 388
+    DblToFlt.o                98
+    FltAddSub.o              288
+    FltCmpGe.o                40
+    FltCmpLe.o                38
+    FltDiv.o                 170
+    FltMul.o                 176
+    FltToDbl.o                50
+    FltToS32.o                58
+    FltToU32.o                38
+    IxxToDbl.o                52
+    IxxToFlt.o                54
+    sqrt.o                   192
+    ----------------------------------------------
+    Total:                 2 272
+
+rt6M_tl.a: [5]
+    ABImemset.o               52
+    I32DivModFast.o          224
+    I64DivMod.o              168
+    I64DivZer.o                2
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              64
+    ----------------------------------------------
+    Total:                   600
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                      16
+    Linker created                     18
+--------------------------------------------------
+    Grand Total:          28 436      832      573
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+.bss$$Base              0x1ffff03c           --   Gb  - Linker created -
+.bss$$Limit             0x1ffff240           --   Gb  - Linker created -
+.data$$Base             0x1ffff000           --   Gb  - Linker created -
+.data$$Limit            0x1ffff03c           --   Gb  - Linker created -
+.data_init$$Base        0x0000b168           --   Gb  - Linker created -
+.data_init$$Limit       0x0000b1a4           --   Gb  - Linker created -
+.iar.init_table$$Base   0x0000b1cc           --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0000b1dc           --   Gb  - Linker created -
+?main                   0x0000b1dd          Code  Gb  cmain.o [5]
+ACC                     0x1ffff18c     0x8  Data  Gb  MPU6050.o [1]
+ACC_Offset              0x1ffff194     0x8  Data  Gb  MPU6050.o [1]
+AllInit                 0x00009999   0x1d2  Code  Gb  Init.o [1]
+Attitude_Angle          0x1ffff164     0xc  Data  Gb  MPU6050.o [1]
+CodeRelocate$$Base      0x0000b254           --   Gb  - Linker created -
+CodeRelocate$$Limit     0x0000b254           --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1ffff240           --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1ffff240           --   Gb  - Linker created -
+Double_Motor_init       0x0000a3b9    0x38  Code  Gb  Double_Motor.o [1]
+Double_Motor_pwm_duty   0x0000a3f1    0xf4  Code  Gb  Double_Motor.o [1]
+GPIOX                   0x1ffff01c     0xc  Data  Gb  KEA_gpio.o [1]
+GYRO                    0x1ffff17c     0x8  Data  Gb  MPU6050.o [1]
+GYRO_Offset             0x1ffff184     0x8  Data  Gb  MPU6050.o [1]
+GetData                 0x0000a389    0x2e  Code  Gb  MPU6050.o [1]
+I2C_SendACK             0x00009f1b    0x4a  Code  Gb  My_I2C.o [1]
+IIC_init                0x00009e69    0x28  Code  Gb  My_I2C.o [1]
+IIC_start               0x00009eab    0x38  Code  Gb  My_I2C.o [1]
+IIC_stop                0x00009ee3    0x38  Code  Gb  My_I2C.o [1]
+IncPIDInit              0x00009b95    0xaa  Code  Gb  PID.o [1]
+KBIn                    0x1ffff000     0x8  Data  Lc  control.o [1]
+KEY_PTxn                0x1ffff028     0x8  Data  Gb  VCAN_key.o [1]
+LCD_ST7735S_dir         0x00005f35  0x143a  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_init        0x000040c9  0x1e68  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LCD_ST7735S_ptlon       0x0000737d   0x48e  Code  Gb  VCAN_LCD_ST7735S.o [1]
+LED_PTxn                0x1ffff030     0x4  Data  Gb  VCAN_LED.o [1]
+MPU6050_GetData         0x0000a2e3    0x86  Code  Gb  MPU6050.o [1]
+MPU6050_Init            0x0000a0d9    0xa4  Code  Gb  MPU6050.o [1]
+MPU6050_Offset          0x0000a17d   0x166  Code  Gb  MPU6050.o [1]
+Measurement_speed       0x0000a6eb    0x78  Code  Gb  Measurement_speed.o [1]
+Measurement_speed_init  0x0000a6c9    0x22  Code  Gb  Measurement_speed.o [1]
+Motor_out               0x0000aba7    0x28  Code  Gb  control.o [1]
+My_Delay_Us             0x00009e91    0x1a  Code  Gb  My_I2C.o [1]
+NVIC_EnableIRQ          0x00009989     0xe  Code  Lc  Init.o [1]
+NVIC_SetPriority        0x0000a5f9    0x88  Code  Lc  KEA_SysTick.o [1]
+Offset_OK               0x1ffff23d     0x1  Data  Gb  MPU6050.o [1]
+R_PID                   0x1ffff1e8    0x20  Data  Lc  PID.o [1]
+Region$$Table$$Base     0x0000b1cc           --   Gb  - Linker created -
+Region$$Table$$Limit    0x0000b1dc           --   Gb  - Linker created -
+Reset_Handler           0x000040c1          Code  Gb  startup_SKEAZ1284.o [1]
+RoundCenterStart_2      0x1ffff054     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_3      0x1ffff058     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_4      0x1ffff05c     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_5      0x1ffff060     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_6      0x1ffff064     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_7      0x1ffff068     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_L      0x1ffff04c     0x4  Data  Gb  dianci.o [1]
+RoundCenterStart_R      0x1ffff050     0x4  Data  Gb  dianci.o [1]
+SCCB_WaitAck            0x00009f65    0x40  Code  Gb  My_I2C.o [1]
+ST7735S_get_h           0x0000780b     0x6  Code  Gb  VCAN_LCD_ST7735S.o [1]
+ST7735S_get_w           0x00007811     0x6  Code  Gb  VCAN_LCD_ST7735S.o [1]
+Speed_PID               0x00009c3f    0x72  Code  Gb  PID.o [1]
+Tar_Ang_Vel             0x1ffff19c     0xc  Data  Gb  MPU6050.o [1]
+Target_Angle            0x1ffff170     0xc  Data  Gb  MPU6050.o [1]
+Tracking_ADC_Val_Sub    0x1ffff104     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum    0x1ffff100     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum_C  0x1ffff0f4     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum_L  0x1ffff0ec     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum_L_L
+                        0x1ffff0f0     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum_R  0x1ffff0fc     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Sum_R_R
+                        0x1ffff0f8     0x4  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Temp_C
+                        0x1ffff09c    0x14  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Temp_L
+                        0x1ffff074    0x14  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Temp_L_L
+                        0x1ffff088    0x14  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Temp_R
+                        0x1ffff0c4    0x14  Data  Gb  dianci.o [1]
+Tracking_ADC_Val_Temp_R_R
+                        0x1ffff0b0    0x14  Data  Gb  dianci.o [1]
+Tracking_Sensor_data_C  0x1ffff0e0     0x4  Data  Gb  dianci.o [1]
+Tracking_Sensor_data_L  0x1ffff0d8     0x4  Data  Gb  dianci.o [1]
+Tracking_Sensor_data_L_L
+                        0x1ffff0dc     0x4  Data  Gb  dianci.o [1]
+Tracking_Sensor_data_R  0x1ffff0e8     0x4  Data  Gb  dianci.o [1]
+Tracking_Sensor_data_R_R
+                        0x1ffff0e4     0x4  Data  Gb  dianci.o [1]
+Weighted_Ration         0x1ffff008    0x14  Data  Gb  dianci.o [1]
+Weighted_Ration_add     0x1ffff034     0x2  Data  Gb  dianci.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x20002ff8          Data  Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00004000          Data  Gb  command line/config [2]
+__aeabi_cfcmple         0x0000897d          Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x000089a5          Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x000087c1          Code  Gb  DblToFlt.o [4]
+__aeabi_dadd            0x0000860d          Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x0000957b          Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x000089ff          Code  Gb  DblMul.o [4]
+__aeabi_dsub            0x000086d3          Code  Gb  DblAddSub.o [4]
+__aeabi_f2d             0x000089cd          Code  Gb  FltToDbl.o [4]
+__aeabi_f2iz            0x00009541          Code  Gb  FltToS32.o [4]
+__aeabi_f2uiz           0x0000963d          Code  Gb  FltToU32.o [4]
+__aeabi_fadd            0x0000a775          Code  Gb  FltAddSub.o [4]
+__aeabi_fdiv            0x000088d3          Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x00008823          Code  Gb  FltMul.o [4]
+__aeabi_fsub            0x0000a7e5          Code  Gb  FltAddSub.o [4]
+__aeabi_i2d             0x00008539          Code  Gb  IxxToDbl.o [4]
+__aeabi_i2f             0x00008501          Code  Gb  IxxToFlt.o [4]
+__aeabi_idiv            0x00007ae1          Code  Gb  I32DivModFast.o [5]
+__aeabi_idiv0           0x00007c05          Code  Gb  IntDivZer.o [5]
+__aeabi_idivmod         0x00007ae1          Code  Gb  I32DivModFast.o [5]
+__aeabi_ldiv0           0x0000a971          Code  Gb  I64DivZer.o [5]
+__aeabi_ldivmod         0x0000a8c9          Code  Gb  I64DivMod.o [5]
+__aeabi_memclr4         0x0000a8c5          Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x0000a8c5          Code  Gb  ABImemset.o [5]
+__aeabi_ui2d            0x00008519          Code  Gb  IxxToDbl.o [4]
+__aeabi_ui2f            0x000084e1          Code  Gb  IxxToFlt.o [4]
+__aeabi_uidiv           0x00007ae7          Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x00007ae7          Code  Gb  I32DivModFast.o [5]
+__aeabi_uldivmod        0x0000a907          Code  Gb  I64DivMod.o [5]
+__cmain                 0x0000b1dd          Code  Gb  cmain.o [5]
+__code_start__ {Abs}    0x000040c0          Data  Gb  command line/config [2]
+__exit                  0x0000b211    0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word      0x0000a895          Code  Gb  ABImemset.o [5]
+__iar_data_init3        0x0000b1a5    0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x0000b231          Code  Gb  cstartup_M.o [5]
+__iar_sqrt64            0x0000854d          Code  Gb  sqrt.o [4]
+__iar_systems$$module {Abs}
+                        0x00000001          Data  Gb  command line/config [2]
+__iar_zero_init3        0x0000b129    0x40  Code  Gb  zero_init3.o [5]
+__low_level_init        0x0000b1f7     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00004000    0xc0  Data  Gb  vectors.o [1]
+_call_main              0x0000b1e9          Code  Gb  cmain.o [5]
+_exit                   0x0000b205          Code  Gb  cexit.o [5]
+_main                   0x0000b1f3          Code  Gb  cmain.o [5]
+acmp0_irqhandler_default
+                        0x0000aa5b     0x8  Code  Lc  vectors.o [1]
+acmp1_irqhandler_default
+                        0x0000aa83     0x8  Code  Lc  vectors.o [1]
+adc0_irqhandler_default
+                        0x0000aa53     0x8  Code  Lc  vectors.o [1]
+adc_init                0x0000843d    0x36  Code  Gb  KEA_adc.o [1]
+adc_once                0x00008473    0x34  Code  Gb  KEA_adc.o [1]
+adc_start               0x000084a7    0x1c  Code  Lc  KEA_adc.o [1]
+assert_failed           0x00007a99     0x4  Code  Gb  MKEA128_conf.o [1]
+bus_clk_khz             0x1ffff230     0x4  Data  Gb  system_SKEAZ1284.o [1]
+car_Dir_out             0x1ffff03c     0x4  Data  Gb  control.o [1]
+car_Speed_out           0x1ffff040     0x4  Data  Gb  control.o [1]
+common_startup          0x0000ae0d    0x6a  Code  Gb  system_SKEAZ1284.o [1]
+core_clk_khz            0x1ffff228     0x4  Data  Gb  system_SKEAZ1284.o [1]
+core_clk_mhz            0x1ffff22c     0x4  Data  Gb  system_SKEAZ1284.o [1]
+count_left              0x1ffff238     0x2  Data  Gb  Measurement_speed.o [1]
+count_right             0x1ffff23a     0x2  Data  Gb  Measurement_speed.o [1]
+d_PID                   0x1ffff1c8    0x20  Data  Lc  PID.o [1]
+d_d_PID                 0x1ffff208    0x20  Data  Lc  PID.o [1]
+default_isr             0x00007a9d    0x18  Code  Gb  MKEA128_conf.o [1]
+dianci_1                0x00007c31    0x12  Code  Gb  dianci.o [1]
+dianci_2                0x00007c43    0x12  Code  Gb  dianci.o [1]
+dianci_3                0x00007c55    0x12  Code  Gb  dianci.o [1]
+dianci_4                0x00007c67    0x12  Code  Gb  dianci.o [1]
+dianci_5                0x00007c79    0x12  Code  Gb  dianci.o [1]
+dianci_init             0x00007c09    0x28  Code  Gb  dianci.o [1]
+dianci_manage           0x00007c8d   0x752  Code  Gb  dianci.o [1]
+dir_PID                 0x00009cb1    0x6e  Code  Gb  PID.o [1]
+dir_R_PID               0x00009d1f    0x6e  Code  Gb  PID.o [1]
+exit                    0x0000b1fb     0x8  Code  Gb  exit.o [3]
+ftm0_irqhandler_default
+                        0x0000aa63     0x8  Code  Lc  vectors.o [1]
+ftm1_irqhandler_default
+                        0x0000aa6b     0x8  Code  Lc  vectors.o [1]
+ftm2_irqhandler_default
+                        0x0000aa73     0x8  Code  Lc  vectors.o [1]
+ftm_clean               0x0000953b     0x6  Code  Gb  KEA_ftm.o [1]
+ftm_enable_clk          0x00009265    0x26  Code  Lc  KEA_ftm.o [1]
+ftm_mod                 0x1ffff130     0xc  Data  Lc  KEA_ftm.o [1]
+ftm_port_mux            0x0000913d   0x128  Code  Lc  KEA_ftm.o [1]
+ftm_pulse_get           0x00009535     0x6  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_init          0x00009505    0x30  Code  Gb  KEA_ftm.o [1]
+ftm_pulse_mux           0x0000946d    0x82  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_fduty           0x000093a9    0xb4  Code  Gb  KEA_ftm.o [1]
+ftm_pwm_finit           0x0000928b    0xe6  Code  Gb  KEA_ftm.o [1]
+ftmre_irqhandler_default
+                        0x0000aa03     0x8  Code  Lc  vectors.o [1]
+gpio_ddr                0x000078d5    0x58  Code  Gb  KEA_gpio.o [1]
+gpio_get                0x000079e5    0x40  Code  Gb  KEA_gpio.o [1]
+gpio_init               0x00007825    0xb0  Code  Gb  KEA_gpio.o [1]
+gpio_set                0x0000792d    0x7c  Code  Gb  KEA_gpio.o [1]
+gpio_turn               0x000079a9    0x3c  Code  Gb  KEA_gpio.o [1]
+hardfault_handler_default
+                        0x0000a97b     0x8  Code  Lc  vectors.o [1]
+i                       0x1ffff158     0x4  Data  Gb  main.o [1]
+i2c0_irqhandler_default
+                        0x0000aa1b     0x8  Code  Lc  vectors.o [1]
+i2c1_irqhandler_default
+                        0x0000aa23     0x8  Code  Lc  vectors.o [1]
+ics_init                0x0000ada1    0x5a  Code  Gb  system_SKEAZ1284.o [1]
+ics_irqhandler_default  0x0000aaa3     0x8  Code  Lc  vectors.o [1]
+irq_irqhandler_default  0x0000aa13     0x8  Code  Lc  vectors.o [1]
+kbi0_irqhandler_default
+                        0x0000aa93     0x8  Code  Lc  vectors.o [1]
+kbi1_irq                0x0000ab71    0x36  Code  Gb  control.o [1]
+key_check               0x00009e39    0x2a  Code  Gb  VCAN_key.o [1]
+key_get                 0x00009e1f    0x1a  Code  Gb  VCAN_key.o [1]
+key_init                0x00009dcd    0x52  Code  Gb  VCAN_key.o [1]
+lcd_char                0x00008d1d   0x2ac  Code  Gb  VCAN_LCD.o [1]
+lcd_init                0x00008b85    0x2a  Code  Gb  VCAN_LCD.o [1]
+lcd_num_bc              0x0000903d    0xfe  Code  Gb  VCAN_LCD.o [1]
+lcd_rectangle           0x00008baf   0x164  Code  Gb  VCAN_LCD.o [1]
+lcd_str                 0x00008fd5    0x68  Code  Gb  VCAN_LCD.o [1]
+led_init                0x00007b95    0x3a  Code  Gb  VCAN_LED.o [1]
+led_turn                0x00007bcf    0x32  Code  Gb  VCAN_LED.o [1]
+main                    0x00009665   0x324  Code  Gb  main.o [1]
+mode                    0x1ffff160     0x4  Data  Gb  main.o [1]
+mscan_rx_irqhandler_default
+                        0x0000aabb     0x8  Code  Lc  vectors.o [1]
+mscan_tx_err_wakeup_irqhandler_default
+                        0x0000aac3     0x8  Code  Lc  vectors.o [1]
+nmi_handler_default     0x0000a973     0x8  Code  Lc  vectors.o [1]
+pendsv_handler_default  0x0000a9d3     0x8  Code  Lc  vectors.o [1]
+pit_ch0_irq             0x0000ab1f    0x52  Code  Gb  control.o [1]
+pit_ch0_irq::i          0x1ffff048     0x4  Data  Lc  control.o [1]
+pit_ch1_irqhandler_default
+                        0x0000aa8b     0x8  Code  Lc  vectors.o [1]
+pit_init                0x0000a571    0x78  Code  Gb  KEA_PIT.o [1]
+pmc_irqhandler_default  0x0000aa0b     0x8  Code  Lc  vectors.o [1]
+point_center            0x1ffff070     0x4  Data  Gb  dianci.o [1]
+point_center_record     0x1ffff108    0x28  Data  Gb  dianci.o [1]
+port_pull               0x0000a501    0x6a  Code  Gb  KEA_port.o [1]
+pwt_irqhandler_default  0x0000aab3     0x8  Code  Lc  vectors.o [1]
+read_ch                 0x0000a007    0x60  Code  Gb  My_I2C.o [1]
+rtc_irqhandler_default  0x0000aa7b     0x8  Code  Lc  vectors.o [1]
+s_PID                   0x1ffff1a8    0x20  Data  Lc  PID.o [1]
+send_ch                 0x00009fa5    0x62  Code  Gb  My_I2C.o [1]
+set_R_PID               0x00009d9b     0xe  Code  Gb  PID.o [1]
+set_Speed               0x00009db7     0x6  Code  Gb  PID.o [1]
+set_d_PID               0x00009d8d     0xe  Code  Gb  PID.o [1]
+set_s_PID               0x00009da9     0xe  Code  Gb  PID.o [1]
+simiic_read_reg         0x0000a091    0x48  Code  Gb  My_I2C.o [1]
+simiic_write_reg        0x0000a067    0x2a  Code  Gb  My_I2C.o [1]
+site                    0x1ffff154     0x4  Data  Gb  main.o [1]
+soft_delay_ms           0x00007a51    0x1c  Code  Gb  misc.o [1]
+soft_delay_us           0x00007a2d    0x24  Code  Gb  misc.o [1]
+speed_flag              0x1ffff06c     0x4  Data  Gb  dianci.o [1]
+spi0_irqhandler_default
+                        0x0000aa2b     0x8  Code  Lc  vectors.o [1]
+spi1_irqhandler_default
+                        0x0000aa33     0x8  Code  Lc  vectors.o [1]
+sqrt                    0x0000854d          Code  Gb  sqrt.o [4]
+sqrtl                   0x0000854d          Code  Gb  sqrt.o [4]
+st7735s_dir             0x1ffff23e     0x1  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_h               0x1ffff036     0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+st7735s_w               0x1ffff038     0x2  Data  Gb  VCAN_LCD_ST7735S.o [1]
+start                   0x0000ad8d    0x14  Code  Gb  system_SKEAZ1284.o [1]
+start_f                 0x1ffff23c     0x1  Data  Gb  main.o [1]
+stop_flag               0x1ffff15c     0x4  Data  Gb  main.o [1]
+svc_handler_default     0x0000a9bb     0x8  Code  Lc  vectors.o [1]
+sysinit                 0x0000adfb    0x12  Code  Gb  system_SKEAZ1284.o [1]
+systick_irq             0x0000aacd    0x52  Code  Gb  control.o [1]
+systick_irq::i          0x1ffff044     0x4  Data  Lc  control.o [1]
+systick_timing          0x0000a681    0x30  Code  Gb  KEA_SysTick.o [1]
+timer_clk_khz           0x1ffff234     0x4  Data  Gb  system_SKEAZ1284.o [1]
+uart0_irqhandler_default
+                        0x0000aa3b     0x8  Code  Lc  vectors.o [1]
+uart1_irqhandler_default
+                        0x0000aa43     0x8  Code  Lc  vectors.o [1]
+uart2_irqhandler_default
+                        0x0000aa4b     0x8  Code  Lc  vectors.o [1]
+uart_init               0x0000ac55    0xe0  Code  Gb  KEA_uart.o [1]
+uart_putbuff            0x0000ad41    0x22  Code  Gb  KEA_uart.o [1]
+uart_putchar            0x0000ad35     0xc  Code  Gb  KEA_uart.o [1]
+var                     0x1ffff13c    0x18  Data  Gb  main.o [1]
+vcan_sendware           0x0000ac0d    0x3a  Code  Gb  VCAN_computer.o [1]
+vector_004_default      0x0000a983     0x8  Code  Lc  vectors.o [1]
+vector_005_default      0x0000a98b     0x8  Code  Lc  vectors.o [1]
+vector_006_default      0x0000a993     0x8  Code  Lc  vectors.o [1]
+vector_007_default      0x0000a99b     0x8  Code  Lc  vectors.o [1]
+vector_008_default      0x0000a9a3     0x8  Code  Lc  vectors.o [1]
+vector_009_default      0x0000a9ab     0x8  Code  Lc  vectors.o [1]
+vector_010_default      0x0000a9b3     0x8  Code  Lc  vectors.o [1]
+vector_012_default      0x0000a9c3     0x8  Code  Lc  vectors.o [1]
+vector_013_default      0x0000a9cb     0x8  Code  Lc  vectors.o [1]
+vector_016_default      0x0000a9db     0x8  Code  Lc  vectors.o [1]
+vector_017_default      0x0000a9e3     0x8  Code  Lc  vectors.o [1]
+vector_018_default      0x0000a9eb     0x8  Code  Lc  vectors.o [1]
+vector_019_default      0x0000a9f3     0x8  Code  Lc  vectors.o [1]
+vector_020_default      0x0000a9fb     0x8  Code  Lc  vectors.o [1]
+vector_042_default      0x0000aa9b     0x8  Code  Lc  vectors.o [1]
+wdog_disable            0x0000aec9    0x1a  Code  Gb  KEA_wdog.o [1]
+wdog_irqhandler_default
+                        0x0000aaab     0x8  Code  Lc  vectors.o [1]
+wdog_unlock             0x0000aee3    0x1c  Code  Lc  KEA_wdog.o [1]
+write_vtor              0x00007a6d    0x20  Code  Gb  misc.o [1]
+
+
+[1] = D:\Users\PC-DCD\Desktop\智能车-电磁三轮程序\Prj\Debug\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  28 436 bytes of readonly  code memory
+     832 bytes of readonly  data memory
+     573 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
