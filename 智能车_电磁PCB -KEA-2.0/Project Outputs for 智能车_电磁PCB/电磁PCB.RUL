@@ -1,0 +1,13 @@
+DRC Rules Export File for PCB: D:\Users\PC-DCD\Desktop\智能车_电磁PCB -KEA-2.0\电磁PCB.PcbDoc
+RuleKind=Width|RuleName=VCC|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=GND|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=VBAT0|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=OUT1|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=OUT2|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=OUT3|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=OUT4|Scope=Board|Minimum=10.00
+RuleKind=Width|RuleName=Vbat|Scope=Board|Minimum=10.00

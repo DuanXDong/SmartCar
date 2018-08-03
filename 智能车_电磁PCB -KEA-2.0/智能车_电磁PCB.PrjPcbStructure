@@ -1,0 +1,2 @@
+Record=TopLevelDocument|FileName=电磁PCB.SchDoc
+Record=SheetSymbol|SourceDocument=电磁PCB.SchDoc|Designator=U_双电机驱动|SchDesignator=U_双电机驱动|FileName=双电机驱动.SchDoc|SymbolType=Normal|RawFileName=双电机驱动.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 

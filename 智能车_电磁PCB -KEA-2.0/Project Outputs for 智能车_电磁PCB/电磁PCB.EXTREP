@@ -1,0 +1,31 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: µç´ÅPCB.GBR   2018/5/5  16:30:15
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTL                Top Layer                               
+.G1                 GND                                     
+.G2                 5V                                      
+.GBL                Bottom Layer                            
+.GPB                Bottom Pad Master                       
+.GPT                Top Pad Master                          
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GKO                Keep-Out Layer                          
+.GM1                Mechanical 1                            
+.GM3                Mechanical 3                            
+.GM5                Mechanical 5                            
+.GM13               Mechanical 13                           
+.GM15               Mechanical 15                           
+.GM16               Mechanical 16                           
+.GM26               Mechanical 26                           
+.GM29               Mechanical 29                           
+.GD1                Drill Drawing                           
+------------------------------------------------------------------------------------------

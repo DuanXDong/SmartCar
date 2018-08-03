@@ -1,0 +1,12 @@
+[HoleList]
+0=100000
+1=280000
+16=354331
+17=354331
+18=354331
+19=275591
+[LayerDirections]
+TopLayer=horizontal
+MidLayer1=vertical
+MidLayer2=horizontal
+BottomLayer=vertical

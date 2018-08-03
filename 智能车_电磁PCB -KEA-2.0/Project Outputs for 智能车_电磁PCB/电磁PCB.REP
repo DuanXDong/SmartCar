@@ -1,0 +1,499 @@
+*************************************************************
+FileName = 电磁PCB.GBR
+AutoAperture = True
+*************************************************************
+Generating : Top Layer
+      File : 电磁PCB.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : GND
+      File : 电磁PCB.G1
+
+    Adding Layer      : GND
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D29
+    D30
+    D33
+    D34
+    D39
+    D40
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : 5V
+      File : 电磁PCB.G2
+
+    Adding Layer      : 5V
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D26
+    D29
+    D30
+    D35
+    D37
+    D39
+    D41
+    D42
+    D43
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : 电磁PCB.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D22
+    D23
+    D24
+    D25
+    D26
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : 电磁PCB.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D22
+    D23
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : 电磁PCB.GPT
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : 电磁PCB.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D24
+    D28
+    D55
+    D56
+    D57
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : 电磁PCB.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : 电磁PCB.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : 电磁PCB.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D68
+    D69
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : 电磁PCB.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D12
+    D13
+    D22
+    D23
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : 电磁PCB.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D24
+    D57
+    D59
+    D60
+    D62
+    D63
+    D104
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : 电磁PCB.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 1
+      File : 电磁PCB.GM1
+
+    Adding Layer      : Mechanical 1
+
+
+Used DCodes :
+    D105
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 3
+      File : 电磁PCB.GM3
+
+    Adding Layer      : Mechanical 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 5
+      File : 电磁PCB.GM5
+
+    Adding Layer      : Mechanical 5
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 13
+      File : 电磁PCB.GM13
+
+    Adding Layer      : Mechanical 13
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : 电磁PCB.GM15
+
+    Adding Layer      : Mechanical 15
+
+
+Used DCodes :
+    D105
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 16
+      File : 电磁PCB.GM16
+
+    Adding Layer      : Mechanical 16
+
+
+Used DCodes :
+    D106
+    D107
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 26
+      File : 电磁PCB.GM26
+
+    Adding Layer      : Mechanical 26
+
+
+Used DCodes :
+    D108
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 29
+      File : 电磁PCB.GM29
+
+    Adding Layer      : Mechanical 29
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : 电磁PCB.GD1
+
+    Adding Drill Pair : Top Layer-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
+    D108
+    D109
+*************************************************************
+

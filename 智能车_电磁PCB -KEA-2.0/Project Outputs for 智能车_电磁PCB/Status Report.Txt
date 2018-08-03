@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [智能车_电磁PCB.PrjPcb]
+   Generated File[电磁PCB-RoundHoles-Plated.TXT]
+   Generated File[电磁PCB-SlotHoles-Plated.TXT]
+   Generated File[电磁PCB.LDP]
+   Generated File[电磁PCB.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 16:31:45 On 2018/5/5

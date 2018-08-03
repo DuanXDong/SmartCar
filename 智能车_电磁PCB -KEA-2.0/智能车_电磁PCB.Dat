@@ -1,0 +1,51 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~智能车_电磁PCB.PrjPcb|ReportField=ProjectFullPath~D:\Users\PC-DCD\Desktop\智能车_电磁PCB -KEA\智能车_电磁PCB.PrjPcb|ReportField=Title~Bill of Materials For Project [智能车_电磁PCB.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~209|ReportField=ReportTime~21:05:21|ReportField=ReportDate~2018/5/4|ReportField=ReportDateTime~2018/5/4 21:05:21|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/5/4|ReportField=CurrentTime~20:10:50|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\Users\PC-DCD\Desktop\智能车_电磁PCB -KEA\电磁PCB.SchDoc|ReportField=DocumentName~电磁PCB.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/5/4|ReportField=Organization~|ReportField=ProjectName~智能车_电磁PCB.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~智能车_电磁PCB.PrjPcb|ReportField=DataSourceFullPath~D:\Users\PC-DCD\Desktop\智能车_电磁PCB -KEA\智能车_电磁PCB.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|1.44LCD||1.44LCD|1.44LCD|1.44LCD|1
+2|100nF|Capacitor|C1, C6, C16, C19, C20, C22, C23, C25, C26, C28, C29, C31, C32, C33, C35|0603C|0603_Cap|15
+3|10uF|Capacitor|C2, C10|0805|Cap|2
+4|220uF|Polarized Capacitor (Radial)|C3, C4, C13, C41|AEC_D6.3|Cap Pol1|4
+5|100nF|Capacitor|C5, C9, C15, C45|0805|Cap|4
+6|10nF|Capacitor|C21, C24, C27, C30, C34, C36|0603C|0603_Cap|6
+7|10uF|Polarized Capacitor (Radial)|C37, C40, C42, C44, C47, C49|1206C|Cap Pol1|6
+8|1.5uF|Capacitor|C38, C43, C46, C48|0805(2012)|Cap|4
+9|470PF|Capacitor|C39|0805(2012)|Cap|1
+10|ln4148|Typical INFRARED GaAs doide|D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12|SOD-523(0603)|Diode|12
+11|IN5819|Default Diode|D13, D17, D21, D24|Diode-1206|Diode|4
+12|IN5819|Default Diode|D14, D15, D16, D19, D20, D22, D23, D26, D27|SMB|Diode|9
+13|U|Varistor (Voltage-Sensitive Resistor)|D18, D25|0805(2012)|Res Varistor|2
+14|1A|Fuse|F1, F2|1206|Fuse|2
+15|陀螺仪|Header, 4-Pin|GYRO|HDR1X4|Header 4|1
+16|U*||KEA128-Core|山外KEA核心板|KEA128-Core|1
+17|Inductor|Inductor|L2|电感8*8_0|Inductor|1
+18|Bell|Bell|LS1|BELL|Bell|1
+19|Header 3X2|Header, 3-Pin, Dual row|P1, P3|HDR2X3|Header 3X2|2
+20|XT30-公-pcb||P2|XT30-垂直|XT30-公头|1
+21|Header 4X2|Header, 4-Pin, Dual row|P4, P6|HDR2X4|Header 4X2|2
+22|起跑检测|Header, 4-Pin|P5|HDR1X4|Header 4|1
+23|电磁传感器|Header, 12-Pin|P8|HDR1X12|Header 12|1
+24|XT30-母-pcb||P9, P10|XT30-垂直|XT30-母头|2
+25|预留AD|Header, 4-Pin|P11|HDR1X4|Header 4|1
+26|预留IO|Header, 4-Pin|P12|HDR1X4|Header 4|1
+27|S8050|NPN Transistor|Q3|SOT-23|NPN|1
+28|IR7843|N-Channel Power MOSFET|Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11|LR7843_0|NMOS-2|8
+29|1K|Resistor|R6, R7, R8, R9, R15, R19, R25, R26, R31, R32, R40, R41, R47, R48, R53, R54, R60, R65, R67, R68, R73, R76, R80|0603R|0603_Res|23
+30|10K|Resistor|R10, R11, R13, R14, R16, R17, R18, R20, R21, R23, R24, R33, R34, R36, R37, R42, R43, R45, R46, R55, R56, R61, R62, R63, R64, R70, R71, R78, R79|0603R|0603_Res|29
+31|10R|Resistor|R12|0603R|0603_Res|1
+32|37.4K|Resistor|R22, R30, R44, R52, R66, R69|0603R|0603_Res|6
+33|100K|Potentiometer|R27, R35, R49, R57, R72, R77|3362P|RPot|6
+34|330R|Resistor|R28, R29, R38, R39, R50, R51, R58, R59, R74, R75, R81, R82|0603R|0603_Res|12
+35|0.22R|Resistor|R83|0805|Res|1
+36|180R|Resistor|R84|0805|Res|1
+37|20R|Resistor|R85, R86, R89, R90, R95, R96, R97, R98|0805|Res|8
+38|10K|Resistor|R87, R91, R92, R93, R94|0805|Res|5
+39|1.2K|Resistor|R88|0805|Res|1
+40|SWITCH||S1|双排两档6脚|SWITCH|1
+41|贴片拨码开关|DIP Switch, 4 Position, SPST|S2, S5|拨码开关4-2.54间距|SW DIP-4|2
+42|SW-PB|Switch|S3, S4, S6, S7|SMT_BUTTON|SW-PB|4
+43|SW-SPDT|SPDT Subminiature Toggle Switch, Right Angle Mounting, Vertical Actuation|S8|SWICH_2|SW-SPDT|1
+44|AMS1085-5||U1|LR7843_0|U22|1
+45|AMS1085-3.3||U3|LR7843_0|U22|1
+46|74HC74||U4|TSSOP14|74HC74|1
+47|INA2332||U5, U6, U7|TSSOP14|INA2332_1|3
+48|IR2104S||U8, U10, U12, U13|IR2104|Component_1_1|4
+49|MC34063||U9|MC34063|74HC00|1
+50|74lvc245|8位5伏转3.3伏电平转换芯片|U11|74lvc245 TSSOP|74lvc245|1

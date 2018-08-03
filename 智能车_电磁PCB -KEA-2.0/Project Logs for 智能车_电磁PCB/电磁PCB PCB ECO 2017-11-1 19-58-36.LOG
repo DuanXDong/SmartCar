@@ -1,0 +1,32 @@
+Added Component: Designator=P11(HDR1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P12(HDR1X4)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=P11-3
+Added Pin To Net: NetName=GND Pin=P11-4
+Added Pin To Net: NetName=ADC0_DP Pin=*-50
+Added Pin To Net: NetName=ADC0_DP Pin=P11-1
+Added Net: Name=ADC0_DP
+Added Pin To Net: NetName=ADC1_DP Pin=*-52
+Added Pin To Net: NetName=ADC1_DP Pin=P11-2
+Added Net: Name=ADC1_DP
+Added Pin To Net: NetName=PTA_24 Pin=*-109
+Added Pin To Net: NetName=PTA_24 Pin=P12-1
+Added Net: Name=PTA_24
+Added Pin To Net: NetName=PTA_25 Pin=*-112
+Added Pin To Net: NetName=PTA_25 Pin=P12-2
+Added Net: Name=PTA_25
+Added Pin To Net: NetName=PTA_26 Pin=*-108
+Added Pin To Net: NetName=PTA_26 Pin=P12-3
+Added Net: Name=PTA_26
+Added Pin To Net: NetName=PTA_27 Pin=*-110
+Added Pin To Net: NetName=PTA_27 Pin=P12-4
+Added Net: Name=PTA_27
+Added Member To Class: ClassName=µÁ¥≈PCB Member=Component P11 ‘§¡ÙAD
+Added Member To Class: ClassName=µÁ¥≈PCB Member=Component P12 ‘§¡ÙIO

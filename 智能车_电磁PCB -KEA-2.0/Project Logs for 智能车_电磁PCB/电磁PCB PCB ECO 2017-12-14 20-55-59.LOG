@@ -1,0 +1,5 @@
+Added Component: Designator=R8(0603R)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=Speed1_A Pin=R8-1
+Added Pin To Net: NetName=5V Pin=R8-2
+Added Member To Class: ClassName=µç´ÅPCB Member=Component R8 1K

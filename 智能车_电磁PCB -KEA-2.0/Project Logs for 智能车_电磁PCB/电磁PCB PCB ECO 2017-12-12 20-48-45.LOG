@@ -1,0 +1,191 @@
+Removed Pin From Net: NetName=PTD_0 Pin=*-15
+Removed Pin From Net: NetName=PTD_1 Pin=*-17
+Removed Pin From Net: NetName=PTD_2 Pin=*-18
+Removed Pin From Net: NetName=PTD_3 Pin=*-19
+Removed Pin From Net: NetName=PTD_4 Pin=*-20
+Removed Pin From Net: NetName=PTE_0 Pin=*-34
+Removed Pin From Net: NetName=PTE_1 Pin=*-35
+Removed Pin From Net: NetName=PTE_4 Pin=*-38
+Removed Pin From Net: NetName=PTE_5 Pin=*-39
+Removed Pin From Net: NetName=PTE_6 Pin=*-40
+Removed Pin From Net: NetName=PTE_7 Pin=*-42
+Removed Pin From Net: NetName=IN22 Pin=*-81
+Removed Pin From Net: NetName=PTC_2 Pin=*-82
+Removed Pin From Net: NetName=IN21 Pin=*-83
+Removed Pin From Net: NetName=IN11 Pin=*-90
+Removed Pin From Net: NetName=IN12 Pin=*-91
+Removed Pin From Net: NetName=PTB_4 Pin=*-100
+Removed Pin From Net: NetName=PTB_3 Pin=*-103
+Removed Pin From Net: NetName=PTB_0 Pin=*-104
+Removed Pin From Net: NetName=PTB_1 Pin=*-105
+Removed Pin From Net: NetName=Speed1_B Pin=*-111
+Removed Pin From Net: NetName=PTD_4 Pin=1.44LCD-6
+Removed Pin From Net: NetName=PTD_3 Pin=1.44LCD-7
+Removed Pin From Net: NetName=PTD_2 Pin=1.44LCD-8
+Removed Pin From Net: NetName=PTD_1 Pin=1.44LCD-9
+Removed Pin From Net: NetName=PTD_0 Pin=1.44LCD-10
+Removed Pin From Net: NetName=PTC_2 Pin=C21-2
+Removed Pin From Net: NetName=PTB_3 Pin=C27-2
+Removed Pin From Net: NetName=PTB_4 Pin=C34-2
+Removed Pin From Net: NetName=PTB_0 Pin=P5-1
+Removed Pin From Net: NetName=PTB_1 Pin=P5-2
+Removed Pin From Net: NetName=PTC_2 Pin=R19-1
+Removed Pin From Net: NetName=PTB_3 Pin=R41-1
+Removed Pin From Net: NetName=PTB_4 Pin=R65-1
+Removed Pin From Net: NetName=PTE_1 Pin=S2-7
+Removed Pin From Net: NetName=PTE_0 Pin=S2-8
+Removed Pin From Net: NetName=PTE_7 Pin=S5-5
+Removed Pin From Net: NetName=PTE_6 Pin=S5-6
+Removed Pin From Net: NetName=PTE_5 Pin=S5-7
+Removed Pin From Net: NetName=PTE_4 Pin=S5-8
+Change Component Footprint: Designator=* Old Footprint=K60底座 New Footprint=山外KEA核心板
+Change Component Comment : Designator=* Old Comment=Component_1 New Comment=U*
+Change Component Designator: OldDesignator=* NewDesignator=KEA128-Core
+Added Pin To Net: NetName=PTD_4 Pin=1.44LCD-1
+Added Pin To Net: NetName=PTD_4 Pin=1.44LCD-1
+Added Pin To Net: NetName=PTD_1 Pin=1.44LCD-2
+Added Pin To Net: NetName=PTD_0 Pin=1.44LCD-13
+Added Pin To Net: NetName=PTD_2 Pin=1.44LCD-14
+Added Pin To Net: NetName=PTD_3 Pin=1.44LCD-16
+Added Pin To Net: NetName=PTB_0 Pin=C21-2
+Added Pin To Net: NetName=PTB_1 Pin=C27-2
+Added Pin To Net: NetName=PTB_3 Pin=C36-2
+Added Pin To Net: NetName=5V Pin=KEA128-Core-1
+Added Pin To Net: NetName=5V Pin=KEA128-Core-1
+Added Pin To Net: NetName=5V Pin=KEA128-Core-1
+Added Pin To Net: NetName=5V Pin=KEA128-Core-1
+Added Pin To Net: NetName=5V Pin=KEA128-Core-1
+Added Pin To Net: NetName=GND Pin=KEA128-Core-2
+Added Pin To Net: NetName=PTD_0 Pin=KEA128-Core-5
+Added Pin To Net: NetName=PTD_1 Pin=KEA128-Core-6
+Added Pin To Net: NetName=PTE_7 Pin=KEA128-Core-9
+Added Pin To Net: NetName=PTE_6 Pin=KEA128-Core-18
+Added Pin To Net: NetName=PTE_5 Pin=KEA128-Core-20
+Added Pin To Net: NetName=PTB_4 Pin=KEA128-Core-21
+Added Pin To Net: NetName=PTC_2 Pin=KEA128-Core-24
+Added Pin To Net: NetName=IN21 Pin=KEA128-Core-29
+Added Pin To Net: NetName=IN22 Pin=KEA128-Core-30
+Added Pin To Net: NetName=3V3 Pin=KEA128-Core-38
+Added Pin To Net: NetName=PTE_0 Pin=KEA128-Core-39
+Added Pin To Net: NetName=PTE_1 Pin=KEA128-Core-40
+Added Pin To Net: NetName=IN12 Pin=KEA128-Core-51
+Added Pin To Net: NetName=IN11 Pin=KEA128-Core-52
+Added Pin To Net: NetName=PTD_3 Pin=KEA128-Core-55
+Added Pin To Net: NetName=PTD_2 Pin=KEA128-Core-56
+Added Pin To Net: NetName=PTD_4 Pin=KEA128-Core-58
+Added Pin To Net: NetName=PTE_4 Pin=KEA128-Core-63
+Added Pin To Net: NetName=PTB_1 Pin=KEA128-Core-69
+Added Pin To Net: NetName=PTB_0 Pin=KEA128-Core-70
+Added Pin To Net: NetName=PTB_3 Pin=KEA128-Core-72
+Added Pin To Net: NetName=PTE_5 Pin=P5-1
+Added Pin To Net: NetName=PTE_6 Pin=P5-2
+Added Pin To Net: NetName=PTC_2 Pin=P11-1
+Added Pin To Net: NetName=PTE_1 Pin=R10-2
+Added Pin To Net: NetName=PTE_4 Pin=R14-2
+Added Pin To Net: NetName=PTB_4 Pin=R15-1
+Added Pin To Net: NetName=PTB_0 Pin=R19-1
+Added Pin To Net: NetName=PTB_1 Pin=R41-1
+Added Pin To Net: NetName=PTB_3 Pin=R67-1
+Added Pin To Net: NetName=PTE_1 Pin=S3-1
+Added Pin To Net: NetName=PTE_4 Pin=S7-1
+Added Pin To Net: NetName=PTE_0 Pin=U4-6
+Added Pin To Net: NetName=PTE_7 Pin=U4-8
+Change Net Name : Old Net Name=PTC_7 New Net Name=PTE_2
+Change Net Name : Old Net Name=PTC_8 New Net Name=PTE_3
+Added Pin To Net: NetName=PTA_6 Pin=C24-2
+Added Pin To Net: NetName=PTA_6 Pin=KEA128-Core-66
+Added Pin To Net: NetName=PTA_6 Pin=R26-1
+Added Net: Name=PTA_6
+Added Pin To Net: NetName=PTA_7 Pin=C30-2
+Added Pin To Net: NetName=PTA_7 Pin=KEA128-Core-65
+Added Pin To Net: NetName=PTA_7 Pin=R48-1
+Added Net: Name=PTA_7
+Added Pin To Net: NetName=PTB_2 Pin=C34-2
+Added Pin To Net: NetName=PTB_2 Pin=KEA128-Core-71
+Added Pin To Net: NetName=PTB_2 Pin=R65-1
+Added Net: Name=PTB_2
+Added Pin To Net: NetName=PTC_3 Pin=KEA128-Core-22
+Added Pin To Net: NetName=PTC_3 Pin=P11-2
+Added Net: Name=PTC_3
+Added Pin To Net: NetName=PTC_4 Pin=KEA128-Core-43
+Added Pin To Net: NetName=PTC_4 Pin=P3-3
+Added Net: Name=PTC_4
+Added Pin To Net: NetName=PTC_5 Pin=KEA128-Core-44
+Added Pin To Net: NetName=PTC_5 Pin=P4-3
+Added Net: Name=PTC_5
+Added Pin To Net: NetName=PTF_0 Pin=KEA128-Core-57
+Added Pin To Net: NetName=PTF_0 Pin=P12-1
+Added Net: Name=PTF_0
+Added Pin To Net: NetName=PTF_1 Pin=KEA128-Core-60
+Added Pin To Net: NetName=PTF_1 Pin=P12-2
+Added Net: Name=PTF_1
+Added Pin To Net: NetName=PTF_2 Pin=KEA128-Core-68
+Added Pin To Net: NetName=PTF_2 Pin=P12-3
+Added Net: Name=PTF_2
+Added Pin To Net: NetName=PTF_3 Pin=KEA128-Core-67
+Added Pin To Net: NetName=PTF_3 Pin=P12-4
+Added Net: Name=PTF_3
+Added Pin To Net: NetName=PTG_0 Pin=1.44LCD-10
+Added Pin To Net: NetName=PTG_0 Pin=KEA128-Core-46
+Added Net: Name=PTG_0
+Added Pin To Net: NetName=PTG_1 Pin=1.44LCD-9
+Added Pin To Net: NetName=PTG_1 Pin=KEA128-Core-45
+Added Net: Name=PTG_1
+Added Pin To Net: NetName=PTG_2 Pin=1.44LCD-8
+Added Pin To Net: NetName=PTG_2 Pin=KEA128-Core-48
+Added Net: Name=PTG_2
+Added Pin To Net: NetName=PTG_3 Pin=1.44LCD-7
+Added Pin To Net: NetName=PTG_3 Pin=KEA128-Core-47
+Added Net: Name=PTG_3
+Added Pin To Net: NetName=PTG_4 Pin=1.44LCD-6
+Added Pin To Net: NetName=PTG_4 Pin=KEA128-Core-59
+Added Net: Name=PTG_4
+Added Pin To Net: NetName=PTG_5 Pin=1.44LCD-5
+Added Pin To Net: NetName=PTG_5 Pin=KEA128-Core-61
+Added Net: Name=PTG_5
+Added Pin To Net: NetName=PTG_6 Pin=1.44LCD-4
+Added Pin To Net: NetName=PTG_6 Pin=KEA128-Core-62
+Added Net: Name=PTG_6
+Added Pin To Net: NetName=PTG_7 Pin=1.44LCD-3
+Added Pin To Net: NetName=PTG_7 Pin=KEA128-Core-64
+Added Net: Name=PTG_7
+Added Pin To Net: NetName=PTH_0 Pin=KEA128-Core-17
+Added Pin To Net: NetName=PTH_0 Pin=S2-8
+Added Net: Name=PTH_0
+Added Pin To Net: NetName=PTH_1 Pin=KEA128-Core-16
+Added Pin To Net: NetName=PTH_1 Pin=S2-7
+Added Net: Name=PTH_1
+Added Pin To Net: NetName=PTH_2 Pin=KEA128-Core-12
+Added Pin To Net: NetName=PTH_2 Pin=S2-6
+Added Net: Name=PTH_2
+Added Pin To Net: NetName=PTH_3 Pin=KEA128-Core-31
+Added Pin To Net: NetName=PTH_3 Pin=S2-5
+Added Net: Name=PTH_3
+Added Pin To Net: NetName=PTH_4 Pin=KEA128-Core-32
+Added Pin To Net: NetName=PTH_4 Pin=S5-8
+Added Net: Name=PTH_4
+Added Pin To Net: NetName=PTH_5 Pin=KEA128-Core-10
+Added Pin To Net: NetName=PTH_5 Pin=S5-7
+Added Net: Name=PTH_5
+Added Pin To Net: NetName=PTH_6 Pin=KEA128-Core-7
+Added Pin To Net: NetName=PTH_6 Pin=S5-6
+Added Net: Name=PTH_6
+Added Pin To Net: NetName=PTH_7 Pin=KEA128-Core-8
+Added Pin To Net: NetName=PTH_7 Pin=S5-5
+Added Net: Name=PTH_7
+Added Pin To Net: NetName=PTI_2 Pin=1.44LCD-15
+Added Pin To Net: NetName=PTI_2 Pin=KEA128-Core-41
+Added Net: Name=PTI_2
+Added Pin To Net: NetName=PTI_3 Pin=1.44LCD-12
+Added Pin To Net: NetName=PTI_3 Pin=KEA128-Core-42
+Added Net: Name=PTI_3
+Added Pin To Net: NetName=PTI_4 Pin=1.44LCD-19
+Added Pin To Net: NetName=PTI_4 Pin=KEA128-Core-13
+Added Net: Name=PTI_4
+Added Pin To Net: NetName=PTI_5 Pin=1.44LCD-17
+Added Pin To Net: NetName=PTI_5 Pin=KEA128-Core-28
+Added Net: Name=PTI_5
+Added Pin To Net: NetName=PTI_6 Pin=1.44LCD-18
+Added Pin To Net: NetName=PTI_6 Pin=KEA128-Core-27
+Added Net: Name=PTI_6
+Added Member To Class: ClassName=电磁PCB Member=Component KEA128-Core U*

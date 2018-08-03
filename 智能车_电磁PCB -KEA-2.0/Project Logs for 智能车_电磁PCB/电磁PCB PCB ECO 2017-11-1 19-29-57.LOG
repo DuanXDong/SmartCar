@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=Q8 Old Footprint=LR7843 New Footprint=LR7843_0
+Change Component Footprint: Designator=Q9 Old Footprint=LR7843 New Footprint=LR7843_0
+Change Component Footprint: Designator=Q10 Old Footprint=LR7843 New Footprint=LR7843_0
+Change Component Footprint: Designator=Q11 Old Footprint=LR7843 New Footprint=LR7843_0
+Added Room: Name=U_双电机驱动
+Added Room: Name=电磁PCB

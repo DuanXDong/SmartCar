@@ -1,0 +1,10 @@
+Change Component Comment : Designator=P11 Old Comment=ADC New Comment=‘§¡ÙAD
+Change Component Comment : Designator=C37 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=C40 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=C42 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=C44 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=C47 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=C49 Old Comment=Cap Pol1 New Comment=10uF
+Change Component Comment : Designator=P12 Old Comment=IO New Comment=‘§¡ÙIO
+Change Component Comment : Designator=P8 Old Comment=µÁ¥≈ New Comment=µÁ¥≈¥´∏–∆˜
+Added Member To Class: ClassName=µÁ¥≈PCB Member=Component P11 ‘§¡ÙAD
